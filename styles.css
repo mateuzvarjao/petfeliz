@@ -1,0 +1,277 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'BioRhyme', sans-serif;
+}
+
+body {
+    background-color: rgb(77, 223, 167);
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40%;
+    padding: 10px 100px;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
+.navbar {
+    display: flex;
+    gap: 80px;
+}
+
+.linkCabecalho {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+
+.containerPrincipal {
+    background: url(images/dog-3590437_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    opacity: 0.85;
+    box-sizing: border-box;
+}
+
+.blur {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    
+}
+
+.titulo {
+    padding-top: 15%;
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+.titulo2 {
+    
+    text-align: center;
+    color: white;
+    font-size: 2.5em;
+}
+
+.subtitulo {
+    text-align: center;   
+    color: white;
+    font-size: 1.5em;
+}
+
+.botaoCentral {
+    width: 100px;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 20px;
+    margin-left: 46%;
+}
+
+.botaoCentral:hover, .botaoFormulario:hover, .botaoPesquisar:hover {
+    cursor: pointer;
+    background-color: rgb(255, 115, 0);
+    border-color: rgb(255, 115, 0);
+}
+
+.containerCards {
+    display: flex;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+.cardCentral {
+    width: 33%;
+    height: 400px;
+    
+}
+
+.imagemCard {
+    width: 100%;
+    height: 80%;
+}
+
+.tituloCard {
+    text-align: center;
+    background-color: orangered;
+    border-radius: 20px;
+    color: white;
+}
+
+.containerMapa {
+    display: flex;
+    justify-content: center ;
+    margin: 50px 0;
+}
+
+.rodape {
+    background-color: orangered;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.divRodape {
+    width: 50%;
+    height: 100%;
+}
+
+.linkRodape {
+    text-decoration: none;
+    color: black;
+    margin-right: 10px;
+}
+
+.sobreNos {
+    padding: 0 200px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.divFormulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 30%;
+    height: 50%;
+    margin: 10px auto;
+    margin-bottom: 250px;
+}
+
+.formulario {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.checks {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+    height: 10%;
+    border-radius: 20px;
+    padding-left: 10px;
+    border-color: white;
+    margin-bottom: 10px;
+}
+
+#banho, #tosa, #veterinario {
+    width: 9%;
+    height: 50%;
+}
+
+.botaoPesquisar {
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    margin-left: 10px;
+    border-radius: 10px;
+    height: 12%;
+    width: 12%;
+}
+
+.botaoFormulario {
+    width: 25%;
+    height: 40px;
+    background-color: orangered;
+    color: white;
+    border-color: orangered;
+    border-radius: 20px;
+}
+
+@media (max-width: 768px) {
+
+    .logo {
+        margin-top: 20px;
+    }
+    
+    .cabecalho {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 0;
+        width: 98%;
+        gap: 10px;
+    }
+
+    .navbar {
+        display: flex;
+        gap: 20px;
+    }
+
+    .linkCabecalho {
+        background-color: rgba(255, 255, 255, 0.151);   
+        border-radius: 10px;
+        padding: 0 10px;
+    }
+
+    .botaoCentral {
+        margin-left: 130px;
+    }
+
+    .titulo {
+        padding: 15% 20px 0 20px ;
+    }
+
+    .titulo2 {
+        font-size: 2em;
+    }
+
+    .containerCards {
+        display: block;
+        width: 98%;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .cardCentral {
+        width: 98%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .tituloCard {
+        width: 80%;
+        margin: 0 auto;
+    }
+    
+    .rodape {
+        display: block;
+        height: 60%;
+        padding: 10px 0 10px 20px;
+    }
+
+    .divRodape {
+        height: 45%;
+        width: 98%;
+    }
+
+    .sobreNos {
+        padding: 0 10px;
+    }
+
+    .divFormulario {
+        width: 98%;
+        margin-top: 50px;
+    }
+
+  }
+

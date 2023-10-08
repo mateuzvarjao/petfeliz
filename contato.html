@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Feliz</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@700&family=Quicksand&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <a href="index.html"><img class="logo" src="images/logo.png" /></a>
+        <nav class="navbar">
+            <a class="linkCabecalho" href="index.html">Home</a>
+            <a class="linkCabecalho" href="sobre.html">Sobre nós</a>
+            <a class="linkCabecalho" href="contato.html">Contato</a>    
+        </nav>
+    </header>
+
+    <div class="divFormulario">
+            <div><h2 style="width: 100%; margin: 0;">Entre em contato conosco</h2></div>
+            <p style="text-align: center; font-size: 0.8em;">Preenchendo esse formuláraio entraremos em contato com você para confirmar o agendamento.</p>
+            <form action="" class="formulario">
+                <input name="nome" id="nome" required placeholder="Digite seu nome" type="text" >
+                <input placeholder="Digite seu email" type="email" >
+                <input required 
+                id="tel" 
+                placeholder="Telefone" 
+                type="text"
+                maxlength="11">
+                <input required 
+                style="width: 80%;" 
+                maxlength="8" 
+                id="cep" 
+                placeholder="Digite seu CEP" 
+                type="text"> 
+                <button class="botaoPesquisar" type="button" id="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <input disabled id="rua" >
+                <input disabled id="bairro" >
+                <input disabled id="cidade" >
+                <input disabled id="estado" >
+                <div class="checks">
+                    <input type="checkbox" id="banho" name="banho" />
+                    <label for="banho">Banho</label>
+                    <input type="checkbox" id="tosa" name="tosa" />
+                    <label for="tosa">Tosa</label>
+                    <input type="checkbox" id="veterinario" name="veterinario" />
+                    <label for="veterinario">Veterinário</label>
+                </div>
+                <button 
+                class="botaoFormulario" 
+                id="botaoEnviar" 
+                type="submit" "
+                >Enviar</button>
+            </form>
+        </div>
+    <footer class="rodape">
+        <div class="divRodape">
+            <h2>Contato</h2>
+            <p>Rua Fantasia, nº 100, Camaçari, BA</p>
+            <p>99999-1234</p>
+            <p>petfeliz@contato.com</p>
+        </div>
+        <div class="divRodape">
+            <h2>Redes Sociais</h2>
+            <p><a class="linkRodape" href=""><i class="fa-brands fa-facebook fa-xl"></i></a>facebook</p>
+            <p><a class="linkRodape" href=""><i class="fa-brands fa-instagram fa-xl"></i></a>instagram</p>
+            <p><a class="linkRodape" href=""><i class="fa-solid fa-phone fa-xl"></i></a>telefone</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/c3a0c5fb5a.js" crossorigin="anonymous"></script>
+</body>
+</html>
