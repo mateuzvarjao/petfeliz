@@ -209,7 +209,7 @@ input {
         justify-content: center;
         padding: 0;
         width: 98%;
-        gap: 10px;
+        gap: 100px;
     }
 
     .navbar {
@@ -243,7 +243,7 @@ input {
     }
 
     .cardCentral {
-        width: 98%;
+        width: 100%;
         margin: 0;
         padding: 0;
     }
@@ -255,7 +255,7 @@ input {
     
     .rodape {
         display: block;
-        height: 60%;
+        height: 80%;
         padding: 10px 0 10px 20px;
     }
 
@@ -275,3 +275,9 @@ input {
 
   }
 
+  @media (max-width: 560px) {
+
+    .cabecalho{
+        gap: 10px;
+    }
+}
