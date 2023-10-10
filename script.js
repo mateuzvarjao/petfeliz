@@ -8,11 +8,6 @@ let banho = document.querySelector('#banho');
 let veterinario = document.querySelector('#veterinario');
 let botaoContato = document.querySelector('#botaoContato');
 
-botaoContato.addEventListener('click', () => {
-    
-    window.location.href = 'contato.html';
-
-})
 
 btn.addEventListener('click', () => {
 
@@ -73,3 +68,8 @@ botaoEnviar.addEventListener('click', (event) => {
 
 
 }) 
+
+function mudaPagina() {
+    window.location.href = 'contato.html';
+
+} 
