@@ -268,9 +268,17 @@ input {
         padding: 0 10px;
     }
 
+    .formulario {
+        height: 100%;
+    }
+
     .divFormulario {
         width: 98%;
         margin-top: 50px;
+    }
+
+    .botaoFormulario {
+        margin-top: 10px;
     }
 
   }
