@@ -59,8 +59,6 @@ botaoEnviar.addEventListener('click', (event) => {
             return;
 
         } 
-        
-        botaoEnviar.disabled = false;
     
     alert('Sua solicitação foi enviada! Entraremos em contato em breve! ')
     location.reload()
