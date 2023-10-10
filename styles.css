@@ -224,7 +224,7 @@ input {
     }
 
     .botaoCentral {
-        margin-left: 130px;
+        margin-left: 42%;
     }
 
     .titulo {
@@ -279,5 +279,13 @@ input {
 
     .cabecalho{
         gap: 10px;
+    }
+
+    .botaoCentral {
+        margin-left: 40%;
+    }
+
+    .titulo {
+        padding: 15% 60px 0 60px ;
     }
 }
