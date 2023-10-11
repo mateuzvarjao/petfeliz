@@ -117,6 +117,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 10px 50px;
+    min-height: calc(100vh - 400px);
 }
 
 .divRodape {
@@ -288,5 +289,12 @@ input {
 
     .titulo {
         padding: 15% 60px 0 60px ;
+    }
+}
+
+@media (max-width: 1500px) {
+
+    .rodape {
+        min-height: calc(100vh - 800px);
     }
 }
